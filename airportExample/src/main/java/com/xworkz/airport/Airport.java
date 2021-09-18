@@ -11,6 +11,16 @@ public class Airport {
 		System.out.println(this.getClass().getSimpleName() + "Bean created");
 	}
 
+	public void setName(String name) {
+		System.out.println("Invoked setName");
+		this.name = name;
+	}
+
+	public void setLocation(String location) {
+		System.out.println("Invoked setLocation");
+		this.location = location;
+	}
+
 	public void runWay() {
 
 		System.out.println("invoked runWay");
@@ -20,4 +30,5 @@ public class Airport {
 		System.out.println("Invoked maintenance");
 
 	}
+
 }

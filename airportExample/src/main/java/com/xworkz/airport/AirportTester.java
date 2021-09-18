@@ -12,5 +12,4 @@ public class AirportTester {
 		airport.runWay();
 		airport.maintenance();
 	}
-
 }
