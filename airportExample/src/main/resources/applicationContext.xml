@@ -32,6 +32,28 @@
 	<bean class="java.lang.Short" id="i6">
 		<constructor-arg value="10"></constructor-arg>
 	</bean>
+	<bean class="com.xworkz.foot.Footwear" id="footwear">
+		<constructor-arg name="brand" value="vkc" />
+		<constructor-arg name="price" value="600" />
+		<constructor-arg name="color" value="Black" />
+		<constructor-arg name="material" ref="material" />
+	</bean>
+	<bean class="com.xworkz.foot.Material" id="material">
+		<constructor-arg name="rubber" value="puma" />
+		<constructor-arg name="plastic" value="nilon" />
+		<constructor-arg name="cloth" value="woolen" />
+	</bean>
+<bean class="com.xworkz.fruit.Fruit" id="fruit">
+		<constructor-arg name="name" value="Orange" />
+		<constructor-arg name="color" value="Orange" />
+		<constructor-arg name="price" value="50" />
+		<constructor-arg name="vitamin" ref="vitamin" />
+	</bean>
+	<bean class="com.xworkz.fruit.Vitamin" id="vitamin">
+		<constructor-arg name="type" value="Vitamin C" />
+		<constructor-arg name="waterSoluble" value="true" />
+		<constructor-arg name="fatSoluble" value="true" />
+	</bean>
 
 
 

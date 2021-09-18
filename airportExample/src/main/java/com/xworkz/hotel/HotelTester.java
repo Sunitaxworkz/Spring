@@ -32,6 +32,8 @@ public class HotelTester {
 
 		Short i6 = container.getBean(Short.class);
 		System.out.println("Short:" + i6);
+		
+		
 	}
 
 }
